@@ -21,7 +21,7 @@ import os
     #方法：获取数据
 class ReadExcel():
     def __init__(self,excel_name):   #跟提供数据没关系的放到初始化属性里
-        #寻找文件路径，相对路径
+        #寻找文件路径，相对路径，推荐使用，不受部署影响
         #1、获取当前路径
         current_path = os.path.dirname(__file__)
         #2、获取父路径
@@ -31,16 +31,16 @@ class ReadExcel():
         self.file_path = file_path
 
     def getData(self):    #提供数据，封装的方法放到方法中
-        #1、打开文件
+        #1、打开文件-可以放入初始方法
         read_excel = xlrd.open_workbook(self.file_path)
-        #2、获取sheet页
+        #2、获取sheet页-可以放入初始方法
         sheet1 = read_excel.sheet_by_index(0)
         #3、读取shee页中的数据
         #3.1创建一个空列表，用来存储数据
         content_list = []
         #3.2获取excel第一行的数据作为key
         key_list = sheet1.row_values(0)
-        #3.3获取最大行数
+        #3.3获取最大行数-可以放入初始方法
         rows = sheet1.nrows
         #3.4循环读取每一行的数据，得到value
         for row in range(1,rows):

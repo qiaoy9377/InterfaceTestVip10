@@ -1,7 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="c4e403a3-f554-4994-9e7a-88851da5f84f" name="Default Changelist" comment="" />
+    <list default="true" id="c4e403a3-f554-4994-9e7a-88851da5f84f" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/common/logs.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/testCase/TestCase.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/configHttp.py" beforeDir="false" afterPath="$PROJECT_DIR$/common/configHttp.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/readExcel.py" beforeDir="false" afterPath="$PROJECT_DIR$/common/readExcel.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/readconfig.py" beforeDir="false" afterPath="$PROJECT_DIR$/common/readconfig.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/writeExcel.py" beforeDir="false" afterPath="$PROJECT_DIR$/common/writeExcel.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config.ini" beforeDir="false" afterPath="$PROJECT_DIR$/config.ini" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -14,7 +23,13 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="ProjectId" id="1sZBwtvbT0eRqQzE13itHyWiF0k" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
@@ -22,9 +37,32 @@
   </component>
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../vip10test" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
-  <component name="RunManager">
-    <configuration name="readExcel" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Python tests.Unittests in TestCase.py">
+    <configuration name="TestCase" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="InterfaceTestVip10" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/testCase" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/testCase/TestCase.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="configHttp" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="InterfaceTestVip10" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -36,7 +74,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/common/readExcel.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/common/configHttp.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -45,9 +83,69 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="readconfig" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="InterfaceTestVip10" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/common" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/common/readconfig.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="writeExcel" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="InterfaceTestVip10" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/common" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/common/writeExcel.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Unittests in TestCase.py" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+      <module name="InterfaceTestVip10" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/testCase" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;$PROJECT_DIR$/testCase/TestCase.py&quot;" />
+      <option name="_new_targetType" value="&quot;PATH&quot;" />
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.readExcel" />
+        <item itemvalue="Python tests.Unittests in TestCase.py" />
+        <item itemvalue="Python.writeExcel" />
+        <item itemvalue="Python.TestCase" />
+        <item itemvalue="Python.readconfig" />
+        <item itemvalue="Python.configHttp" />
       </list>
     </recent_temporary>
   </component>
@@ -64,30 +162,57 @@
     </task>
     <servers />
   </component>
+  <component name="UnknownFeatures">
+    <option featureType="com.intellij.fileTypeFactory" implementationName="*.ini" />
+  </component>
   <component name="WindowStateProjectService">
     <state x="8" y="379" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1621070848103">
       <screen x="0" y="0" width="1280" height="760" />
     </state>
     <state x="8" y="379" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1280.760@0.0.1280.760" timestamp="1621070848103" />
-    <state width="1260" height="148" key="GridCell.Tab.0.bottom" timestamp="1621260030491">
+    <state x="639" y="152" key="FileChooserDialogImpl" timestamp="1621949047433">
       <screen x="0" y="0" width="1280" height="760" />
     </state>
-    <state width="1260" height="148" key="GridCell.Tab.0.bottom/0.0.1280.760@0.0.1280.760" timestamp="1621260030491" />
-    <state width="1260" height="148" key="GridCell.Tab.0.center" timestamp="1621260030491">
+    <state x="639" y="152" key="FileChooserDialogImpl/0.0.1280.760@0.0.1280.760" timestamp="1621949047433" />
+    <state width="1246" height="212" key="GridCell.Tab.0.bottom" timestamp="1621780683417">
       <screen x="0" y="0" width="1280" height="760" />
     </state>
-    <state width="1260" height="148" key="GridCell.Tab.0.center/0.0.1280.760@0.0.1280.760" timestamp="1621260030491" />
-    <state width="1260" height="148" key="GridCell.Tab.0.left" timestamp="1621260030491">
+    <state width="1246" height="212" key="GridCell.Tab.0.bottom/0.0.1280.760@0.0.1280.760" timestamp="1621780683417" />
+    <state width="1246" height="212" key="GridCell.Tab.0.center" timestamp="1621780683417">
       <screen x="0" y="0" width="1280" height="760" />
     </state>
-    <state width="1260" height="148" key="GridCell.Tab.0.left/0.0.1280.760@0.0.1280.760" timestamp="1621260030491" />
-    <state width="1260" height="148" key="GridCell.Tab.0.right" timestamp="1621260030491">
+    <state width="1246" height="212" key="GridCell.Tab.0.center/0.0.1280.760@0.0.1280.760" timestamp="1621780683417" />
+    <state width="1246" height="212" key="GridCell.Tab.0.left" timestamp="1621780683417">
       <screen x="0" y="0" width="1280" height="760" />
     </state>
-    <state width="1260" height="148" key="GridCell.Tab.0.right/0.0.1280.760@0.0.1280.760" timestamp="1621260030491" />
-    <state x="303" y="81" width="672" height="678" key="search.everywhere.popup" timestamp="1621259409237">
+    <state width="1246" height="212" key="GridCell.Tab.0.left/0.0.1280.760@0.0.1280.760" timestamp="1621780683417" />
+    <state width="1246" height="212" key="GridCell.Tab.0.right" timestamp="1621780683417">
       <screen x="0" y="0" width="1280" height="760" />
     </state>
-    <state x="303" y="81" width="672" height="678" key="search.everywhere.popup/0.0.1280.760@0.0.1280.760" timestamp="1621259409237" />
+    <state width="1246" height="212" key="GridCell.Tab.0.right/0.0.1280.760@0.0.1280.760" timestamp="1621780683417" />
+    <state width="1246" height="212" key="GridCell.Tab.1.bottom" timestamp="1621780683417">
+      <screen x="0" y="0" width="1280" height="760" />
+    </state>
+    <state width="1246" height="212" key="GridCell.Tab.1.bottom/0.0.1280.760@0.0.1280.760" timestamp="1621780683417" />
+    <state width="1246" height="212" key="GridCell.Tab.1.center" timestamp="1621780683417">
+      <screen x="0" y="0" width="1280" height="760" />
+    </state>
+    <state width="1246" height="212" key="GridCell.Tab.1.center/0.0.1280.760@0.0.1280.760" timestamp="1621780683417" />
+    <state width="1246" height="212" key="GridCell.Tab.1.left" timestamp="1621780683417">
+      <screen x="0" y="0" width="1280" height="760" />
+    </state>
+    <state width="1246" height="212" key="GridCell.Tab.1.left/0.0.1280.760@0.0.1280.760" timestamp="1621780683417" />
+    <state width="1246" height="212" key="GridCell.Tab.1.right" timestamp="1621780683417">
+      <screen x="0" y="0" width="1280" height="760" />
+    </state>
+    <state width="1246" height="212" key="GridCell.Tab.1.right/0.0.1280.760@0.0.1280.760" timestamp="1621780683417" />
+    <state x="144" y="25" key="SettingsEditor" timestamp="1621649070702">
+      <screen x="0" y="0" width="1280" height="760" />
+    </state>
+    <state x="144" y="25" key="SettingsEditor/0.0.1280.760@0.0.1280.760" timestamp="1621649070702" />
+    <state x="303" y="81" width="672" height="678" key="search.everywhere.popup" timestamp="1621676967311">
+      <screen x="0" y="0" width="1280" height="760" />
+    </state>
+    <state x="303" y="81" width="672" height="678" key="search.everywhere.popup/0.0.1280.760@0.0.1280.760" timestamp="1621676967311" />
   </component>
 </project>
