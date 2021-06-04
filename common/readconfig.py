@@ -15,13 +15,14 @@ class ReadConfig():
         file = os.path.dirname(os.path.dirname(__file__))+'/config.ini'
         logger.info(f'config.ini文件的路径：{file}')
         self.conf.read(file,encoding='utf-8')
-    def get_mysql(self,section):
+    def get_option(self,section):
         try:
             options = self.conf.items(section)
             logger.info(options)
+            return options
         except Exception as msg:
-            logger.error(f'系统报错，提示：{msg}')
+            logger.error(f'系统报错，提示：{msg}' )
 
 if __name__ == '__main__':
     rc = ReadConfig()
-    rc.get_mysql('redis')
+    rc.get_option('sendEmail')

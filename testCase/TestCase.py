@@ -76,7 +76,8 @@ class TestCase(unittest.TestCase):
             raise    #抛出异常
         finally:
             #将接口断言得到的结果写入excel
-            write.write_excel(id,real,status)
+            # write.write_excel(id,real,status)
+            write.writeExcel(id,6,real,status)
 
 if __name__ == '__main__':
     unittest.main()
